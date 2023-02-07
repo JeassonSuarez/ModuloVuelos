@@ -3,7 +3,7 @@
 
 ## Descripción 📑
 
-En este proyecto se realizo una simulacion de lo que se realizaria para poder realizar busqueda de vuelos, posibles itinerarios que exiten dependiendo los vuelos que se han creado, ademas de esto se permite la creacion de vuelos uusando una interfaz que se realiza en ReactJS, tambien se permite que hayan conexiones entre los distintos vuelos ya creados, permitiendo asi poder visualizar los distintos itinerarios de un vuelo teniendo en cuenta tanto conexiones que se refiere a la union de dos o mas vuelos, ademas de la visualizacion de los distintos segmentos que se refiere a la visualizacion de las distintas escalas de un solo vuelo.
+En este proyecto se realizo una simulacion de lo que se realizaria para poder realizar busqueda de vuelos, posibles itinerarios que exiten dependiendo los vuelos que se han creado, ademas de esto se permite la creacion de vuelos uusando una interfaz que se realiza en ReactJS, tambien se permite que hayan conexiones entre los distintos vuelos ya creados, permitiendo asi poder visualizar los distintos itinerarios de un vuelo teniendo en cuenta tanto conexiones que se refiere a la union de dos o mas vuelos, ademas de la visualizacion de los distintos segmentos que se refiere a la visualizacion de las distintas escalas de un solo vuelo. Las tecnologias que se usaron fueron ReactJS, CSS, NodeJS, ExpressJS, OracleDB
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻 
 
