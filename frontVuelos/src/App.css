@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.384);
+  margin: auto;
+  margin: 0;
+  height: 100vh;
+}
+
+.containerForms{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+h2{
+  margin: 0;
+}
+
+.div-registro{
+  padding: 20px;
+  width: fit-content;
+  height: fit-content;
+  margin: 25px auto;
+  display: flex;
+  justify-content: start;
+  border: 1px solid rgba(146, 146, 146, 0.493);
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: repeat(70px, 1fr);
+}
+
+.titleform{
+  height: fit-content;
+}
+
+.nuevoVuelo, .nuevaConexion{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  display: block;
+  text-align: left;
+  max-width: 372px;
+  margin: auto;
+  width: 100%;
+}
+
+
+input, select{
+  width: 100%;
+  max-width: 372px;
+  padding: 5px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button{
+  cursor: pointer;
+  border: 1px solid rgb(0, 162, 255);
+  border-radius: 20px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(0, 118, 187);
+  font-weight: bold;
+  color: aliceblue;
+  transition: all ease 0.1s;
+  padding: 15px 25px;
+  align-self: center;
+}
+
+button:hover{
+  background-color: aliceblue;
+  color: rgb(0, 118, 187);
+}
+
+
+.errorM{
+  color: red;
+  text-align: left;
+  font-size: 10px;
+}
+
+.form-filtro-asignacionCitas{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.divcheck{
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#check{
+  width: fit-content;
+  margin: 0;
+}
+
+.segmentoCom{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 4px;
+  border: 1px solid rgba(146, 146, 146, 0.493);
+  margin: 20px auto 20px auto;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 400px;
+}
+
+.lista-segmentos{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgba(146, 146, 146, 0.493);
+  width: 95vw;
+  margin: 30px auto;
+  padding-bottom: 35px;
+  border-radius: 20px;
+}
+
+h3{
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin: 25px 0;
+}
+
+b{
+  display: block;
+  margin: auto;
+  margin-right: 0;
+  height: fit-content;
+}
+
+p{
+  display: block;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+.divbtn-cvuelo{
+  border-top: 1px solid rgba(146, 146, 146, 0.493);
+  width: 100%;
+}
+
+.btnCvuelo{
+  margin-top: 35px;
+}
+
+.h3con{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.divenviarseg{
+  width: 100%;
+  border-top: 1px solid rgba(146, 146, 146, 0.493); 
+  border-bottom: 1px solid rgba(146, 146, 146, 0.493); 
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.divenviarseg>button{
+  align-self: center;
+}
+
+.div-itinerario{
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  border: 1px solid rgba(146, 146, 146, 0.493);
+  margin: auto;
+  margin: 25px auto;
+}
